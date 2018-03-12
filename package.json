@@ -1,0 +1,16 @@
+{
+  "name": "botox",
+  "version": "1.0.0",
+  "description": "a magic minecraft bot",
+  "main": "chatterbox.js",
+  "scripts": {
+    "chat": "node .\\chatterbox.js dove.aternos.org 40679 Botox",
+    "echo": "node .\\echo.js dove.aternos.org 40679 Botox"
+  },
+  "author": "linuslabo",
+  "license": "MIT",
+  "dependencies": {
+    "minecraft-protocol-forge": "^1.0.0",
+    "mineflayer": "^2.6.1"
+  }
+}
