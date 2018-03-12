@@ -4,7 +4,7 @@
   "description": "a magic minecraft bot",
   "main": "chatterbox.js",
   "scripts": {
-    "chat": "node .\\chatterbox.js dove.aternos.org 40679 Botox",
+    "chat": "node .\\server.js oxforduniversity.aternos.me Botox",
     "echo": "node .\\echo.js dove.aternos.org 40679 Botox"
   },
   "author": "linuslabo",

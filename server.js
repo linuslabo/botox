@@ -17,15 +17,15 @@ const Vec3 = require('vec3').Vec3
 var forgeHandshake = require('minecraft-protocol-forge').forgeHandshake;
 
 
-if (process.argv.length < 4 || process.argv.length > 6) {
-  console.log('Usage : node chatterbot.js <host> <port> [<name>] [<password>]')
-  process.exit(1)
-}
+// if (process.argv.length < 4 || process.argv.length > 6) {
+//   console.log('Usage : node chatterbot.js <host> <port> [<name>] [<password>]')
+//   process.exit(1)
+// }
 
 const bot = mineflayer.createBot({
-  host: process.argv[2],
-  port: parseInt(process.argv[3]),
-  username: process.argv[4] ? process.argv[4] : 'chatterbox',
+  host: process.argv[2] ? process.argv[2] : 'oxforduniversity.aternos.me',
+  port: parseInt(process.argv[3]) ? process.argv[3] : '',
+  username: process.argv[4] ? process.argv[4] : 'Botox',
   password: process.argv[5],
   version:"1.12.2",
   verbose: true
